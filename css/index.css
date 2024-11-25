@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 0.8125rem;
+    box-sizing: border-box;
+    
+}
+
+
+/* Layout */
+
+
+header .container {
+    border-bottom: 1px solid #C6C6C6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    margin-bottom: 20px;
+}
+.container {
+    width: 375px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+/* Typography */
+
+p, .bold-text, .small-text, .icon-btn {
+    margin: 0;
+}
+
+.user-info-text {
+    margin: 0px 0px 0px 10px;
+}
+.bold-text {
+    font-weight: 700;
+    font-size: 0.8125rem;
+}
+
+.small-text {
+    font-size: 0.70rem;
+    font-weight: 400;
+
+}
+
+.post-text {
+    line-height: 20px;
+    margin: 10px 15px 0px 13px;
+
+}
+
+.icon-btn{
+    padding: 0;
+    background: none;
+    border: none;
+    
+}
+
+
+
+
+
+/* Images */
+
+
+header img {
+    margin: 15px;
+}
+
+
+.app-logo {
+    width: 127px;
+    height: 33px;
+    
+}
+
+.user-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    
+}
+
+.post-img {
+    display: block;
+    width: 375px;
+}
+
+
+.icon {
+    width: 20px;
+    margin: 20px 0px 0px 13px;
+    transition: opacity 0.3s ease;
+}
+
+.icon:hover,
+.icon:focus {
+    opacity: 50%;
+}
